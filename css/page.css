@@ -395,7 +395,8 @@
 	width: 618px;
 }
 .about .content{
-	padding: 18px 23px;
+	/*padding: 18px 23px;*/
+	padding: 20px 23px;
 	background:#f1f1f1;
 	/*overflow: hidden;*/
 }
@@ -627,6 +628,8 @@
 .news .info .first .first_img{
 	border:1px solid #d4d4d4;
 	padding: 1px;
+	width: 100px;
+	height: 100px;
 	float: left;
 	overflow: hidden;
 }
@@ -642,6 +645,7 @@
 .news .info .first .first_txt{
 	line-height: 2em;
 	text-indent: 2em;
+	font-size: 1.2em;
 }
 
 .news .info li:hover .first_img{
