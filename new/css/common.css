@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*全局*/
+body{
+	font-family:Helvetica,Arial,"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",SimSun,"宋体",sans-serif;
+	font-size:62.5%;
+}
+
+/* 通用样式 */
+a:link,a:visited,a:active,a:hover{
+	text-decoration: none;
+}
+
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.min_w{
+	min-width: 1200px;
+}
+
+
+/* common */
+.header{
+	background-color: #ed1c24;
+	height: 60px;
+	min-width: 1200px;
+}
+
+.logo{
+	width: 60px;
+	height: 60px;
+	display: block;
+}
+.logo .img{
+	max-width: 60px;
+	max-height: 60px;
+	margin:0 auto; 
+	display: block;
+}
+.logo:hover{
+	-webkit-transform:scale(0.94);
+	-moz-transform:scale(0.94);
+	-ms-transform:scale(0.94);
+	-o-transform:scale(0.94);
+	transform:scale(0.94);
+}
+
+
+.nav_mian{
+	
+}
+
+.nav_mian .link{
+	height: 60px;
+}
+
+.nav_mian .link .hover{
+	
+}
+
+
+
+
+
+
+
+/* 通用模块 */
+.x{}
+
+
+/* css3*/
+.logo,
+.logo .img{
+	-webkit-transition:all 0.4s ease-out;
+	-moz-transition:all 0.4s ease-out;
+	-ms-transition:all 0.4s ease-out;
+	-o-transition:all 0.4s ease-out;
+	transition:all 0.4s ease-out;
+}
+
+/*
+
+主题色 	#ed1c24
+
+
+
+
+
+
+*/

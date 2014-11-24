@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?npio7n');
+	src:url('fonts/icomoon.eot?#iefixnpio7n') format('embedded-opentype'),
+		url('fonts/icomoon.woff?npio7n') format('woff'),
+		url('fonts/icomoon.ttf?npio7n') format('truetype'),
+		url('fonts/icomoon.svg?npio7n#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon_"], [class*=" icon_"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon_media_play:before {
+	content: "\e600";
+}
+.icon_media_play_outline:before {
+	content: "\e601";
+}
+.icon_arrows_left:before {
+	content: "\e602";
+}
+.icon_arrows_right:before {
+	content: "\e603";
+}
+.icon_arrows_top:before {
+	content: "\e604";
+}
+.icon_arrows_bottom:before {
+	content: "\e605";
+}
+.icon_number1:before {
+	content: "\e606";
+}
+.icon_number2:before {
+	content: "\e607";
+}
+.icon_number3:before {
+	content: "\e608";
+}
+.icon_number4:before {
+	content: "\e609";
+}
+.icon_number5:before {
+	content: "\e60a";
+}
+.icon_number6:before {
+	content: "\e60b";
+}
+.icon_number7:before {
+	content: "\e60c";
+}
+.icon_number8:before {
+	content: "\e60d";
+}
+.icon_number9:before {
+	content: "\e60e";
+}
+.icon_number0:before {
+	content: "\e60f";
+}
+.icon_number1_pad:before {
+	content: "\e610";
+}
+.icon_number2_pad:before {
+	content: "\e611";
+}
+.icon_number3_pad:before {
+	content: "\e612";
+}
+.icon_number4_pad:before {
+	content: "\e613";
+}
+.icon_number5_pad:before {
+	content: "\e614";
+}
+.icon_number6_pad:before {
+	content: "\e615";
+}
+.icon_number7_pad:before {
+	content: "\e616";
+}
+.icon_number8_pad:before {
+	content: "\e617";
+}
+.icon_number9_pad:before {
+	content: "\e618";
+}
+.icon_number0_pad:before {
+	content: "\e619";
+}
+.icon_yes:before {
+	content: "\e61a";
+}
+.icon_false:before {
+	content: "\e61b";
+}
