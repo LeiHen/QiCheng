@@ -13,6 +13,7 @@
 		el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'icon_image': '&#xe61c;',
 		'icon_media_play': '&#xe600;',
 		'icon_media_play_outline': '&#xe601;',
 		'icon_arrows_left': '&#xe602;',
@@ -40,7 +41,8 @@
 		'icon_number9_pad': '&#xe618;',
 		'icon_number0_pad': '&#xe619;',
 		'icon_yes': '&#xe61a;',
-		'icon_false': '&#xe61b;',
+		'icon_no': '&#xe61b;',
+		'icon_box': '&#xe61d;',
 		'0': 0
 		},
 		els = document.getElementsByTagName('*'),
