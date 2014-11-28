@@ -171,7 +171,96 @@ a:link,a:visited,a:active{
 
 
 /* 通用模块 */
-.x{}
+
+/* 广告 */
+.mod_ad{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	background-color: #ef3b42;
+	padding: 10px 0;
+	position: relative;
+}
+.mod_ad .title,
+.mod_ad .big_title{
+	font-weight: bold;
+	line-height: 1.8em;
+}
+.mod_ad .title{
+	font-size: 2.4em;
+}
+.mod_ad .big_title{
+	font-size: 5em;
+}
+
+.mod_ad .triangle_b{
+	height: 0;
+	width: 5;
+	border-width: 10px;
+	border-color: #ef3b42 transparent transparent transparent;
+	border-style: solid;
+	display: block;
+	bottom: -20px;
+	left: 50%;
+	position: absolute;
+}
+
+/* 按钮 */
+.mod_btn{
+	color: #fff;
+	background: #ed1c24;
+	border-radius: 4px;
+	padding: 10px 20px;
+	/*border-right:1px solid #ad0007;*/
+	/*border-bottom:2px solid #ad0007;*/
+	box-shadow:0px 2px 0px 0px  #ad0007;
+	display: block;
+	/*display: inlin-block;*/
+	display: inline-block;
+	+display: inline;
+	+zoom: 1;
+	text-align: center;
+}
+.mod_btn .mod_btn_title{
+	font-size: 1.4em;
+	line-height: 1em;
+}
+.mod_btn .mod_btn_ico{
+	font-size: 1.2em;
+	line-height: 1em;
+	display: inline-block;
+}
+
+.mod_btn:hover{
+	box-shadow:0px 2px 0px 0px transparent;
+	-webkit-transform:translate(0,2px);
+	-ms-transform:translate(0,2px);
+	-moz-transform:translate(0,2px);
+	-o-transform:translate(0,2px);
+	transform: translate(0,2px);
+}
+.mod_btn:active{
+	box-shadow: 0px -2px 0px 0px #ad0007;
+	-moz-transform:translate(0,4px);
+	-moz-transform:translate(0,4px);
+	-moz-transform:translate(0,4px);
+	-moz-transform:translate(0,4px);
+	transform: translate(0,4px);
+}
+.mod_btn:active .mod_btn_ico{
+	transform: translate(4px,0);
+	-webkit-transform: translate(4px,0);
+	-moz-transform: translate(4px,0);
+	-ms-transform: translate(4px,0);
+	-o-transform: translate(4px,0);
+}
+
+
+
+
+
+
+
 
 
 /* css3*/
@@ -180,7 +269,9 @@ a:link,a:visited,a:active{
 .logo .img,
 .nav_mian .link,
 .nav_mian .link .hover,
-.nav_bottom .link .wire{
+.nav_bottom .link .wire,
+.mod_btn,
+.mod_btn .mod_btn_ico{
 	-webkit-transition:all 0.4s ease-out;
 	-moz-transition:all 0.4s ease-out;
 	-ms-transition:all 0.4s ease-out;
@@ -192,6 +283,7 @@ a:link,a:visited,a:active{
 
 主题色 	#ed1c24
 深红	#ad0007
+浅红色  #ef3b42
 
 边框红  #d61119
 
