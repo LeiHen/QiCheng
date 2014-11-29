@@ -165,10 +165,92 @@
 	margin:20px 0;
 }
 
+/* index 新闻 */
+.news_index{
+	overflow: hidden;
+	padding: 40px 0;
+}
+.news_index .wrap{
+	width: 45%;
+	float: left;
+}
+.news_index .ml{
+	margin-left: 5%;
+}
+.news_index .mr{
+	margin-right:5%;
+}
+.news_index .wrap .mian_title{
+	font-size: 2em;
+	line-height: 2em;
+	border-bottom:2px solid #dddddd;
+	font-weight: bold;
+	color: #ed1c24;
+	margin:0 0 20px 0;
+}
+.news_index .wrap .mian_title .more{
+	font-size: 0.7em;
+	font-weight: 400;
+	color:#d6d4d4;
+	float: right;
+	display: block;
+}
+.news_index .wrap .mian_title .more .ico{
+	vertical-align: middle;
+	margin: 0 0 0 4px;
+	display: inline-block;
+	+display: inline;
+	+zoom: 1;
+}
+.news_index .wrap .mian_title .more:hover{
+	color: #ed1c24;
+}
+.news_index .wrap .mian_title .more:hover .ico{
+	-webkit-transform:translate(2px,0px);
+	-moz-transform:translate(2px,0px);
+	-ms-transform:translate(2px,0px);
+	-o-transform:translate(2px,0px);
+	transform:translate(2px,0px);
+}
 
 
+.news_index .wrap .list_wrap{
+
+}
+.news_index .wrap .list_wrap .list{
+	border-bottom: 1px dashed #dddddd;
+	position: relative;
+	cursor: pointer;
+	/*overflow: hidden;*/
+}
+.news_index .wrap .list_wrap .list .title{
+	font-size: 1.4em;
+	line-height: 3em;
+}
+.news_index .wrap .list_wrap .list .time{
+	float: right;
+	color: #dddddd;
+	/*display: block;*/
+}
+.news_index .wrap .list_wrap .list .wire{
+	background-color: #ed1c24;
+
+	height: 0px;
+	width: 100%;
+	
+	position: absolute;
+	bottom: -2px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
 
 
+.news_index .wrap .list_wrap .list:hover .wire{
+	bottom: -1px;
+	height: 2px;
+	opacity: 1;
+	filter: alpha(opacity=1);
+}
 
 
 
@@ -197,7 +279,10 @@
 .banner_info_wrap .list,
 .banner_info_wrap .list .ico,
 .cooperative_index .wrap .list,
-.cooperative_index .wrap .list .img{
+.cooperative_index .wrap .list .img,
+.news_index .wrap .mian_title .more,
+.news_index .wrap .mian_title .more .ico,
+.news_index .wrap .list_wrap .list .wire{
 	-webkit-transition:all 0.4s ease-out;
 	-moz-transition:all 0.4s ease-out;
 	-ms-transition:all 0.4s ease-out;
