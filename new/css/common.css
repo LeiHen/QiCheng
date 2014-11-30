@@ -26,6 +26,9 @@ a:link,a:visited,a:active{
 .min_w{
 	min-width: 1200px;
 }
+.bg_white{
+	background: #fff;
+}
 
 
 /* common */
@@ -107,19 +110,24 @@ a:link,a:visited,a:active{
 }
 
 .nav_bottom .link .wire{
-	background-color: #ad0007;
-	height: 1px;
-	width: 0;
-	bottom: 0;
-	left: 0;
+	background-color: #ed1c24;
+
+	height: 0px;
+	width: 100%;
+	
 	position: absolute;
+	bottom: -2px;
+	left: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
 }
 
 .nav_bottom .link:hover .wire{
-	width:100%;
+	bottom: -1px;
+	height: 2px;
+	opacity: 1;
+	filter: alpha(opacity=1);
 }
-
-
 
 
 

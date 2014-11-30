@@ -30,6 +30,7 @@ a:hover{text-decoration:none;cursor:pointer}
 .t2{text-indent:2em}
 .udl{text-decoration:underline}
 .no_udl{text-decoration:none}
+.ofh{overflow:hidden;}
 
 /*CSS position*/
 .tl{text-align:left}

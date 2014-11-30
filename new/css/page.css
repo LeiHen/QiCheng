@@ -254,6 +254,129 @@
 
 
 
+/* 公司信息 首页 */
+.contact_info_index{
+	/*padding: 20px 0;*/
+	margin: 20px auto;
+}
+.contact_info_index .wrap{
+	float: left;
+	width: 45%;
+}
+.contact_info_index .ml{
+	margin-left: 5%;
+}
+.contact_info_index .mr{
+	margin-right:5%;
+}
+
+
+.contact_info_index .form{
+	
+}
+.contact_info_index .form li{
+	margin: 10px 0;
+}
+.contact_info_index .form li input,
+.contact_info_index .form .message{
+	height: 30px;
+	width: 96%;
+	padding: 4px 2%;
+	font-size: 1.4em;
+	line-height: 1.6em;
+	outline: none;
+	border: 2px solid #dddddd;
+	color: #dddddd;
+}
+.contact_info_index .form .title{
+	font-size: 2em;
+	margin: 0 0 20px 0;
+	/*line-height: 2em;*/
+}
+.contact_info_index .form .name{
+	
+}
+.contact_info_index .form .phone{
+	
+}
+.contact_info_index .form .size{
+	
+}
+.contact_info_index .form .message{
+	height: 90px;
+}
+.contact_info_index .form .btn_submit{
+	left: 0;
+	top: 0;
+	position: absolute;
+
+	border: none;
+	width: 100%;
+
+	visibility: hidden;
+}
+.contact_info_index .form .btn_submit_a{
+	/*width: 95%;*/
+	display: block;
+}
+
+.contact_info_index .form  input:focus,
+.contact_info_index .form  .message:focus{
+	outline: 2px solid #ed1c24;
+	/*border: 2px solid #ed1c24;*/
+	color: #000;
+}
+
+.contact_info_index .form  input:hover,
+.contact_info_index .form  .message:hover{
+	border: 2px solid #ed1c24;
+}
+
+.contact_info_index .form .phone_hot_wrap{
+	margin: 20px 0;
+}
+.contact_info_index .form .phone_hot_wrap .img_ico{
+	width: 80px;
+	height: 56px;
+	float: left;
+}
+.contact_info_index .form .phone_hot_wrap .sub_title{
+	font-size: 2em;
+	font-weight: bold;
+
+}
+.contact_info_index .form .phone_hot_wrap .phone_hot{
+	font-size: 2.4em;
+	color: #ed1c24;
+	font-weight: bold;
+}
+
+
+
+.contact_info_index .contact_info_map{
+	
+}
+.contact_info_index .contact_info_map p{
+	font-size: 1.6em;
+	margin: 0 0 10px 0;
+}
+.contact_info_index .contact_info_map .map{
+	/*width: ;*/
+	height: 330px;
+	border: 2px solid #dddddd;
+}
+.contact_info_index .contact_info_map .map:hover{
+	border: 2px solid #ed1c24;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -282,7 +405,10 @@
 .cooperative_index .wrap .list .img,
 .news_index .wrap .mian_title .more,
 .news_index .wrap .mian_title .more .ico,
-.news_index .wrap .list_wrap .list .wire{
+.news_index .wrap .list_wrap .list .wire,
+.contact_info_index .form  input,
+.contact_info_index .form  .message,
+.contact_info_index .contact_info_map .map{
 	-webkit-transition:all 0.4s ease-out;
 	-moz-transition:all 0.4s ease-out;
 	-ms-transition:all 0.4s ease-out;

@@ -150,6 +150,7 @@
         <!-- ad_txt_index]] -->
         
         <!-- news_index[[ -->
+        <div class="min_w bg_white ofh">
         <div class="w news_index">
            
             <div class="wrap mr">
@@ -218,11 +219,41 @@
                 </ul>
             </div>
         </div>
+        </div>
         <!-- news_index]] -->
         
-        <!-- news_index]] -->
-        
-        <!-- news_index]] -->
+        <!-- contact_info_index[[ -->
+        <div class="w contact_info_index ofh">
+            <ul class="wrap mr form">
+                <li class="title">马上联系我们获取更多优惠</li>
+                <li><input type="text" class="name" value="姓名"></li>
+                <li><input type="text" class="phone" value="电话"></li>
+                <li><input type="text" class="size" value="地址"></li>
+                <li><textarea name="" id="" class="message" value="地址">留言内容</textarea></li>
+                <li class="pr">
+                    <input type="submit" class="btn_submit">
+                    <a class="mod_btn btn_submit_a">  
+                        <span class="mod_btn_title">提交</span>
+                        <span class="mod_btn_ico icon_media_play"></span>
+                    </a>
+                </li>
+                <li class='phone_hot_wrap'>
+                    <img src="images/phone_hot_ico.png" alt="" class="img_ico">
+                    <div class="fl ml20">
+                        <h2 class="sub_title">全国服热线</h2>
+                        <p class="phone_hot">020-4285214</p>
+                    </div>
+                    
+                </li>
+            </ul>
+            <div class="wrap ml contact_info_map">
+                 <p>广州启诚制品实业有限公司</p>
+                 <p>联系电话：020-21524154</p>
+                 <p>联系地址：广州市越秀区</p>
+                 <div class="map" id="dituContent"></div>
+            </div>
+        </div>
+        <!-- contact_info_index]] -->
         
         
         
@@ -288,5 +319,17 @@
         <!--[if lte IE 7]>
         <script type="text/javascript" src="js/hack/font-ie7.js"></script>
         <![endif]-->
+        
+        <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+        
+        <script type="text/javascript">	
+			//初始化 当前统一入口
+			function mian_init(){
+                //创建和初始化地图
+                initMap();
+			}
+			mian_init();
+		</script>
+        
 	</body>
 </html>
