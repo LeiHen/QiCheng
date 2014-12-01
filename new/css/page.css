@@ -165,7 +165,7 @@
 	margin:20px 0;
 }
 
-/* index 新闻 */
+/* 新闻 首页 */
 .news_index{
 	overflow: hidden;
 	padding: 40px 0;
@@ -241,7 +241,8 @@
 	position: absolute;
 	bottom: -2px;
 	opacity: 0;
-	filter: alpha(opacity=0);
+	filter:alpha(opacity=0);
+
 }
 
 
@@ -249,7 +250,7 @@
 	bottom: -1px;
 	height: 2px;
 	opacity: 1;
-	filter: alpha(opacity=1);
+	filter:alpha(opacity=100);
 }
 
 
@@ -371,11 +372,21 @@
 
 
 
+/* 产品展示 */
+.product{
 
+}
+.product .sub_banner{
+	background: #f5f5f5 url(../images/banner/sub/img_1200x260_product.png) no-repeat center center;
+}
 
+/* 客户案例 */
+.case{
 
-
-
+}
+.case .sub_banner{
+	background: #f5f5f5 url(../images/banner/sub/img_1200x260_case.png) no-repeat center center;
+}
 
 
 
