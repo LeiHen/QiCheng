@@ -365,27 +365,80 @@ a:link,a:visited,a:active{
 
 }
 .mod_news_lists .list{
-
+	overflow: hidden;
+	margin: 0 0 20px 0; 
+	padding: 0 0 20px 0;
+	border-bottom:1px dashed #dddddd;
+	position: relative;
 }
+.mod_news_lists .list .img_wrap{
+	border:2px solid #dddddd;
+	float: left;
+	overflow: hidden;
+	/*position: relative;*/
+}
+.mod_news_lists .list .img{
+	display: block;
+	max-width:242px; 
+}
+
 .mod_news_lists .list .link{
-
-}
-.mod_news_lists .list .link .img{
-
+	float: right;
+	/*position: relative;*/
+	display: block;
+	width: 532px;
+	height: 120px;
+	margin: 0 0 0 20px;
+	padding: 0 0 16px 0;
+	color: #000;
+	
 }
 .mod_news_lists .list .title{ 
-
+	font-size: 1.8em;
+	line-height: 1.8em;
+	margin: 0 0 10px 0;
 }
 .mod_news_lists .list .describe{
-
+	font-size: 1.4em;
+	line-height: 1.6em;
+	color: #b3b3b3;
+}
+.mod_news_lists .list .time{
+	font-size: 1.4em;
+	line-height: 1em;
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+	color: #b3b3b3;
+}
+.mod_news_lists .list .wire{
+	background-color: #ef3b42;
+	height: 2px;
+	width: 100%;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
 }
 
 
+.mod_news_lists .list:hover{
+	/*border-bottom:1px dashed transparent;*/
+}
 
+.mod_news_lists .list:hover .img_wrap{
+	border:2px solid #ef3b42;
+}
+.mod_news_lists .list .img_wrap:hover .img{
+	-webkit-transform:scale(1.04);
+	-moz-transform:scale(1.04);
+	-ms-transform:scale(1.04);
+	-o-transform:scale(1.04);
+	transform:scale(1.04);
+}
 
-
-
-
+/*.mod_news_lists .list:hover .wire{
+	bottom: 0;
+}*/
 
 
 /* 通用模块 */
@@ -522,7 +575,11 @@ a:link,a:visited,a:active{
 .mod_page,
 .mod_page .list,
 .mod_page .list a,
-.mod_page .list .hover{
+.mod_page .list .hover,
+.mod_news_lists .list,
+.mod_news_lists .list .wire,
+.mod_news_lists .list .img_wrap,
+.mod_news_lists .list .img_wrap .img{
 	-webkit-transition:all 0.4s ease-out;
 	-moz-transition:all 0.4s ease-out;
 	-ms-transition:all 0.4s ease-out;
