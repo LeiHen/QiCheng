@@ -97,82 +97,66 @@
 .contact_info_index .contact_info_map .map:hover{ border: 2px solid #ed1c24; }
 
 /* 产品展示 */
-.product{
-
-}
-.product .sub_banner{
-	background: #f5f5f5 url(../images/banner/sub/img_1200x260_product.png) no-repeat center center;
-}
+.product{ }
+.product .sub_banner{ background: #f5f5f5 url(../images/banner/sub/img_1200x260_product.png) no-repeat center center; }
 
 /* 客户案例 */
-.case{
-
-}
-.case .sub_banner{
-	background: #f5f5f5 url(../images/banner/sub/img_1200x260_case.png) no-repeat center center;
-}
+.case{ }
+.case .sub_banner{ background: #f5f5f5 url(../images/banner/sub/img_1200x260_case.png) no-repeat center center; }
 
 /* 新闻动态 */
-.news{
-
-}
-.news .sub_banner{
-	background: #f5f5f5 url(../images/banner/sub/img_1200x260_news.png) no-repeat center center;
-}
+.news{ }
+.news .sub_banner{ background: #f5f5f5 url(../images/banner/sub/img_1200x260_news.png) no-repeat center center; }
 
 
 /* 关于我们 */
-.about{
+.about{ }
+.about .sub_banner{ background: #f5f5f5 url(../images/banner/sub/img_1200x260_about.png) no-repeat center center; }
 
-}
-.about .sub_banner{
-	background: #f5f5f5 url(../images/banner/sub/img_1200x260_about.png) no-repeat center center;
-}
+.about .content_wrap{ width: 800px; margin: 0 auto; }
+.about .content_wrap .img_wrap{ text-align: center; margin: 60px 0 60px 0; }
+.about .content_wrap .img_wrap li{ border: 2px solid #dddddd; display: inline-block; +display: inline; +zoom: 1; width: 200px; height: 200px; margin: 0 30px; overflow: hidden; }
+.about .content_wrap .img_wrap .img{ display: block; width: 100%; max-width: 200px; height: 200px; }
+.about .content_wrap .img_wrap li:hover{ border: 2px solid #ed1c24; }
+.about .content_wrap .img_wrap li:hover .img{ -webkit-transform:scale(1.04); -moz-transform:scale(1.04); -ms-transform:scale(1.04); -o-transform:scale(1.04); transform:scale(1.04); }
+
+.about .content_wrap .txt{ }
+.about .content_wrap .txt p{ text-indent:2em; line-height: 1.8em; margin: 20px 0; font-size: 1.4em; }
+
 
 /* 联系我们 */
-.contact{
+.contact{ }
+.contact .sub_banner{ background: #f5f5f5 url(../images/banner/sub/img_1200x260_contact.png) no-repeat center center; }
+.contact .content_wrap .company_info{ }
+.contact .content_wrap .company_info .wrap{ padding: 0 20px 0 40px; }
+.contact .content_wrap .company_info .name{ font-size: 2.4em; line-height: 1em; margin: 0 0 20px 0; }
+.contact .content_wrap .company_info .info{ font-size: 1.4em; line-height: 1.8em; margin: 10px 0; }
+.contact .content_wrap .company_info .introduction{ font-size: 1.4em; line-height: 1.8em; margin: 40px 0 0 0; }
+.contact .content_wrap .company_info .introduction .txt{ }
 
-}
-.contact .sub_banner{
-	background: #f5f5f5 url(../images/banner/sub/img_1200x260_contact.png) no-repeat center center;
-}
-.contact .content_wrap .company_info{
-	/*padding:0 20px 0 20px;*/
-}
-.contact .content_wrap .company_info .name{
-	
-}
-.contact .content_wrap .company_info .info{
-	
-}
-.contact .content_wrap .company_info .introduction{
-	
-}
-.contact .content_wrap .company_info .introduction .txt{
-	
-}
+.contact .content_wrap .about_message{ margin: 0 60px 0 40px; width: 758px; }
+.contact .content_wrap .about_message .sub_title{ font-size: 1.4em; line-height: 1em; color: #dddddd; }
+.contact .content_wrap .about_message  .list_btn_submit{ width: 38.2%; float: right; }
 
-
-
-.contact_info_index .form{ }
-.contact_info_index .form li{ margin: 10px 0; }
-.contact_info_index .form li input,
-.contact_info_index .form .message{ height: 30px; width: 96%; padding: 4px 2%; font-size: 1.4em; line-height: 1.6em; outline: none; border: 2px solid #dddddd; color: #dddddd; }
-.contact_info_index .form .title{ font-size: 2em; margin: 0 0 20px 0; }
-.contact_info_index .form .name{ }
-.contact_info_index .form .phone{ }
-.contact_info_index .form .size{ }
-.contact_info_index .form .message{ height: 90px; }
-.contact_info_index .form .btn_submit{ left: 0; top: 0; position: absolute; border: none; width: 100%; visibility: hidden; }
-.contact_info_index .form .btn_submit_a{ display: block; }
-.contact_info_index .form  input:focus,
-.contact_info_index .form  .message:focus{ outline: 2px solid #ed1c24; color: #000; }
-.contact_info_index .form  input:hover,
-.contact_info_index .form  .message:hover{ border: 2px solid #ed1c24; }
-.contact_info_index .form .phone_hot_wrap{ margin: 20px 0; }
-.contact_info_index .form .phone_hot_wrap .img_ico{ width: 80px; height: 56px; float: left; }
-.contact_info_index .form .phone_hot_wrap .sub_title{ font-size: 2em; font-weight: bold; }
-.contact_info_index .form .phone_hot_wrap .phone_hot{ font-size: 2.4em; color: #ed1c24; font-weight: bold; }
+.mod_form{ }
+.mod_form li{ margin: 10px 0; }
+.mod_form li input,
+.mod_form .message{ height: 30px; width: 96%; padding: 4px 2%; font-size: 1.4em; line-height: 1.6em; outline: none; border: 2px solid #dddddd; color: #dddddd; }
+.mod_form .title{ font-size: 2em; margin: 0 0 20px 0; }
+.mod_form .name{ }
+.mod_form .phone{ }
+.mod_form .size{ }
+.mod_form .message{ height: 90px; }
+.mod_form .btn_submit{ left: 0; top: 0; position: absolute; border: none; width: 100%; visibility: hidden; }
+.mod_form .btn_submit_a{ display: block; }
+.mod_form  input:focus,
+.mod_form  .message:focus{ outline: 2px solid #ed1c24; color: #000; }
+.mod_form  input:hover,
+.mod_form  .message:hover{ border: 2px solid #ed1c24; }
+.mod_form .phone_hot_wrap{ margin: 20px 0; }
+.mod_form .phone_hot_wrap .img_ico{ width: 80px; height: 56px; float: left; }
+.mod_form .phone_hot_wrap .sub_title{ font-size: 2em; font-weight: bold; }
+.mod_form .phone_hot_wrap .phone_hot{ font-size: 2.4em; color: #ed1c24; font-weight: bold; }
 
 
 
@@ -202,9 +186,11 @@
 .news_index .wrap .mian_title .more,
 .news_index .wrap .mian_title .more .ico,
 .news_index .wrap .list_wrap .list .wire,
-.contact_info_index .form  input,
-.contact_info_index .form  .message,
-.contact_info_index .contact_info_map .map{
+.mod_form  input,
+.mod_form  .message,
+.contact_info_map .map,
+.about .content_wrap .img_wrap li,
+.about .content_wrap .img_wrap .img{
 	-webkit-transition:all 0.4s ease-out;
 	-moz-transition:all 0.4s ease-out;
 	-ms-transition:all 0.4s ease-out;
