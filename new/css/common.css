@@ -7,6 +7,7 @@ body{ font-family:Helvetica,Arial,"Microsoft YaHei","微软雅黑",STXihei,"华�
 a:link,a:visited,a:active,a:hover{ text-decoration: none; }
 a:link,a:visited,a:active{ color: #fff; }
 .w{ width: 1200px; margin: 0 auto; }
+.sub_w{ width: 1200px; margin: 0 auto; }
 .min_w{ min-width: 1200px; }
 .bg_white{ background: #fff; }
 
